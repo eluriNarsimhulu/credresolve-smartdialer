@@ -1,0 +1,5 @@
+scenario,answer_rate_assumption,avg_talk_seconds,provider_latency_seconds,provider_failure_rate_assumption,agents,calls_requested_by_pacer,calls_approved_by_safety,calls_initiated,calls_connected_estimate,calls_not_connected_estimate,safety_cap_respected,estimated_talk_utilization_pct,interpretation
+A,0.2,120,0.4,0.05,100,500,100,100,13,87,True,2.6,"synthetic estimate; latency impact is shown as an input, not time-stepped"
+B,0.5,90,0.4,0.05,100,200,100,100,44,56,True,6.6,"synthetic estimate; latency impact is shown as an input, not time-stepped"
+C,0.7,180,1.8,0.2,100,143,100,100,51,49,True,15.3,"synthetic estimate; latency impact is shown as an input, not time-stepped"
+D,0.35,150,1.0,0.1,100,286,100,100,27,73,True,6.75,"synthetic estimate; latency impact is shown as an input, not time-stepped"
